@@ -48,7 +48,7 @@ public class SMSBroadcastReceiver extends BroadcastReceiver {
 
                     showNotification(context, numeroTelefone, mensagem);
                 }
-            }
+            } 
         } catch (Exception e) {
             Log.e("SmsReceiver", "Exception smsReceiver" + e);
         }
